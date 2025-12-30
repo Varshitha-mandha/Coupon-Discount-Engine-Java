@@ -1,0 +1,80 @@
+/* === Global Root === */
+.root {
+    -fx-font-family: "Poppins", "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: linear-gradient(to bottom right, #fff8f2, #ffeedd);
+}
+
+/* === Title / Headings === */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d9534f;
+}
+
+/* === Buttons === */
+.button {
+    -fx-background-color: linear-gradient(to right, #ff7043, #f4511e);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 18 8 18;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #f4511e, #d84315);
+}
+
+.button:pressed {
+    -fx-background-color: #452d45;
+}
+
+/* === Text Fields === */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #4a384f;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10;
+}
+
+.text-field:focused {
+    -fx-border-color: #d84315;
+    -fx-effect: dropshadow(gaussian, rgba(255,112,67,0.3), 5, 0, 0, 0);
+}
+
+/* === Labels === */
+.label {
+    -fx-text-fill: #333;
+}
+
+/* === Coupon Button Section === */
+.coupon-button-container {
+    -fx-background-color: #fff3e0;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-border-color: #ff7043;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+}
+
+.coupon-btn {
+    -fx-background-color: linear-gradient(to right, #ff7043, #f4511e);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 14;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1);
+}
+
+.coupon-btn:hover {
+    -fx-background-color: linear-gradient(to right, #f4511e, #d84315);
+}
+
+.coupon-btn:pressed {
+    -fx-background-color: #bf360c;
+}
